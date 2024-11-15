@@ -1,0 +1,28 @@
+
+/* CONTAINER */
+
+    .header-container {
+    
+        /* Text Placement */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        /* Style Placeholder */
+        color: #FFFFFF;
+        background-color: #2F4F4F;
+        
+}
+
+/* Header TITLE */
+
+    .header-title {
+        font-weight: 400;
+    }
+
+    .header-alt-title {
+        font-weight: 700;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }

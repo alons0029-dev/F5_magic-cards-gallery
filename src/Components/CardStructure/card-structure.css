@@ -1,0 +1,115 @@
+
+/* CONTAINER */
+
+    .magic-card-container {
+
+        /* Container Measures */
+        width: 600px;
+        height: 600px;
+
+        /* Content Placement */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+
+        /* Style Placeholder */
+        background-color: burlywood;
+
+    }
+
+/* BASIC INFO Section */
+
+    .magic-card-basic-info {
+
+        /* Section Measures */
+        width: 275px;
+        height: 550px;
+
+        /* Content Placement */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        /* Style Placeholder */
+        background-color: #FFFFFF;
+
+    }
+
+    /* Section Components */
+    
+        /* Image */
+        
+            .magic-card-img-placeholder {
+                width: 200px;
+                height: 400px;
+            }
+
+/* DETAILED INFO Section */
+.magic-card-detailed-info {
+
+     /* Section Measures */
+     width: 225px;
+     height: 425px;
+ 
+     /* Content Placement */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+ 
+     /* Style Placeholder */
+     background-color: #FFFFFF;
+}
+
+/* Section Components */
+    
+    /* ATTRIBUTE Container */
+        
+        .magic-card-attribute-container {
+
+            /* Container Measures */
+            width: 200px;
+            height: 100px;
+
+            /* Content Placement */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            /* Style Placeholder */
+            color: #FFFFFF;
+            background-color: #2F4F4F;
+
+        }
+
+    /* ATTRIBUTE Title */
+        .magic-card-attribute-title {
+            
+            /* Content Measurement */
+            width: 150px;
+            height: 15px;
+
+            /* Style Placeholder */
+            font-weight: 700;
+            color: #2F4F4F;
+            background-color: #FFFFFF;
+        }
+
+    /* ATTRIBUTE Text */
+        .magic-card-attribute-text {
+
+            /* Content Measurement */
+            width: 150px;
+            height: 75px;
+
+            /* Style Placeholder */
+            font-weight: 400;
+            color: #2F4F4F;
+            background-color: #FFFFFF;
+            
+        }
+        
+    
